@@ -1,0 +1,64 @@
+* {
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+h1, h2, h3 {
+	font-weight: normal;
+	line-height: 1;
+}
+h1 {
+	font-size: 18pt;
+}
+h2 {
+	font-size: 16pt;
+}
+h3 {
+	font-size: 12pt;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    margin-right: 15pt;
+    text-align: left;
+	font-size: 11pt;
+	line-height: 1.2;
+}
+.percentage {
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: lighter;
+}
+th.key, td.key {
+	width: 70pt;
+}
+th.text, td.text {
+	width: 400pt;
+	max-width: 400pt;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+th.effort, td.effort {
+	width: 50pt;
+	text-align: right;
+}
+th.key::after {
+	content: "Key";
+}
+th.text::after {
+	content: "Description";
+}
+th.effort::after {
+	content: "Estimate";
+}
+tr.total {
+	font-weight: bold;
+	font-style: italic;
+}
+tr.total td {
+	border-bottom: none;
+}
+tr.total td.text::after {
+	content: "Total";
+}
