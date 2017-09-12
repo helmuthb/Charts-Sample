@@ -7,7 +7,7 @@ These are simple samples for creating HTML-based charts and reports.
 This is a sample for creating a Gantt chart from a textual description. It uses the [dhtmlxGantt](https://dhtmlx.com/docs/products/dhtmlxGantt/) library.
 
 You specify the project lines as a ```<script type="text/csv">``` in the following format:
-```
+```html
 <script type="text/csv">
 100,0,2016-01-01,2016-01-01,type-b,Preparations
 110,100,2017-07-01,2018-06-30,type-b,Getting Ready
