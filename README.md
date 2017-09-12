@@ -16,7 +16,7 @@ You specify the project lines as a ```<script type="text/csv">``` in the followi
 </script>
  ```
 
-The first column specifies the _ID) of the task or task group.
+The first column specifies the _ID_ of the task or task group.
 The second column specifies the parent ID - ```0``` if it is a top-level task (group).
 The third and fourth column provide the start and end date.
 The fifth column provides a _class_ - which can then be used with CSS to format the tasks differently.
